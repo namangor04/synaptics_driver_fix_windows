@@ -1,6 +1,6 @@
 name: synaptics_driver_fix_windows
 description: A Flutter package to fix horizontal scroll, which does not work on some (not-so) older windows devices with Synaptics Drivers.
-version: 0.0.1
+version: 0.0.2
 homepage: https://nbrg-developers.web.app/docs/plugins/flutter/synaptics_driver_fix_windows
 
 environment:

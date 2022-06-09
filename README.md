@@ -24,7 +24,7 @@ WindowsSynapticsFixWidget(
 
 ## Additional information
 
-If you experience any issues, please file those [here on Github][1]. If you want to contribute to this repo, open a PR on [Github][2]. If you want to view the API in detail, visit [dual_scroll on our website][3].
+If you experience any issues, please file those [here on Github][1]. If you want to contribute to this repo, open a PR on [Github][2]. If you want to view the API in detail, visit [synaptics_driver_fix_windows on our website][3].
 
 Also, We would really appreciate if you view our [website][4] and our [apps][5].
 
