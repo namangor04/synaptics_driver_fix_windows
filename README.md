@@ -1,39 +1,39 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package to fix horizontal scroll, which does not work on some (not-so) older windows devices with Synaptics TouchPads and Synaptics TouchPad Drivers.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Fixes Horizontal Scroll on windows devices with Synaptics TouchPads and Synaptics TouchPad Drivers.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+* Add the package to `pubspec.yaml` file.
+* Run `flutter pub get`.
+* Import the package: `import package:synaptics_driver_fix_windows.dart/synaptics_driver_fix_windows.dart;`
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+* Wrap the widget which you want to scroll horizontally like this:
 
 ```dart
-const like = 'sample';
+WindowsSynapticsFixWidget(
+    scrollController: horizontalScrollController,
+    child: yourHorizontallyScrollableChild,
+);
+
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you experience any issues, please file those [here on Github][1]. If you want to contribute to this repo, open a PR on [Github][2]. If you want to view the API in detail, visit [dual_scroll on our website][3].
+
+Also, We would really appreciate if you view our [website][4] and our [apps][5].
+
+[1]: https://github.com/nbrgdevelopers41/synaptics_driver_fix_windows/issues
+
+[2]: https://github.com/nbrgdevelopers41/synaptics_driver_fix_windows/pulls
+
+[3]: https://nbrg-developers.web.app/docs/plugins/flutter/synaptics_driver_fix_windows
+
+[4]: https://nbrg-developers.web.app
+
+[5]: https://nbrg-developers.web.app/services/one-nbrg/apps
